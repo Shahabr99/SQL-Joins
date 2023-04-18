@@ -32,5 +32,3 @@ INSERT INTO vehicles (make, model, year, price, owner_id) VALUES ('BMW', '300', 
 INSERT INTO vehicles (make, model, year, price, owner_id) VALUES ('BMW', '700', 2015, 52999.99, 6);
 
 
-SELECT * FROM owners JOIN vehicles ON owners.id = vehicles.owner_id;
-SELECT first_name, last_name, COUNT(*) FROM owners JOIN vehicles ON owners_id = vehicles.owner_id GROUP BY owners.first_name, owners.last_name;
